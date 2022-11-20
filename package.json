@@ -9,5 +9,9 @@
   },
   "scripts": {
     "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-puppeteer",
+    "verbose": true
   }
 }
