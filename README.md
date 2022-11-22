@@ -13,4 +13,17 @@ __Part 2__
 
 3. You would not use a unit test for this kind of application. You would need to test all the elements of the user experience, from typing the message to sending it and adding attachments, etc. You would also need to check that the message was actually recieved by the other user/device, so it is beyond the scope of a simple unit test.
 
-4. You could use a unit test for this feature. Since the only job of such a function is to ensure that a message is not longer than a certain amount of characters, you could use unit testing to type out messages longer than the limit and check to ensure they've been cut off. An E2E test of the entire application is not required to check the functionality of a simple feature like this. 
+4. You could use a unit test for this feature. Since the only job of such a function is to ensure that a message is not longer than a certain amount of characters, you could use unit testing to type out messages longer than the limit and check to ensure they've been cut off. An E2E test of the entire application is not required to check the functionality of a simple feature like this.
+
+
+__Lab 8 Testing Screenshot__
+
+![lab8 tests passing](./screenshots/lab8_test-success.PNG)
+
+__Sum Testing Screenshot__
+
+![sum tests passing](./screenshots/sum_test-success.PNG)
+
+__Unit Testing Screenshot__
+
+![unit tests passing](./screenshots/unit_test-success.PNG)
